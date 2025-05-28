@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    border: boder-box;
+    font-family: Arial;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    height: 100px;
+    background-color:#212529;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-logo{
+    height: 100px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo{
+ background-image: url("companylogo.webp");
+ background-size: cover;
+ width: 300px;
+ height: 100px;
+ margin-left: 40px;
+
+
+}
+.nav-text{
+    display: flex;
+    text-align: center;
+    color:white;
+    margin-left: 45px;
+    border: 2px solid white;
+}
+
+.nav-text :hover{
+    border: 2px solid white;
+}
+
+/*Nav2*/
+.nav2 {
+    width: 100%;
+    background-color: #2a97a4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 34px;
+
+}
+
+.nav2 a{
+    border: 2px solid transparent;
+    color: white;
+    transition: .3s;
+    background-color: transparent;
+
+}
+
+.nav2 a :hover{
+    border: 1px solid white;
+    background-color: #007BFF;
+    
+}
+
+.section{
+    color: white;
+    padding-top: 10px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.sec-two{
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+/*Section-2*/
+.section2{
+    background-color: #2a97a4;
+    width: 80%;
+    height: 44.19px;
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.section2 h4{
+    margin-left: 10px;
+    color: #333333;
+    
+}
+
+.section3{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 5px;
+    border: 2px solid #E7EAEC;
+    
+}
+
+.text1{
+    padding-left: 10px;
+    margin-top: 15px;
+    
+
+}
+
+.a{
+    margin-top: 5px;
+}
+ 
+.b{
+    margin-top: 5px;
+}
+
+.c{
+    margin-top: 5px;
+}
+.text2{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+/*Company-overview*/
+.overview{
+    background-color: #2a97a4;
+    width: 80%;
+    height: 44.19px;
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.overview h4{
+    color: #333333;
+    margin-left: 10px;
+    
+}
+
+.over-section{
+    height: 300px;
+    width: 80%;
+    border: 2px solid #E7EAEC;
+    margin-left: 10%;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+/* Company-Highlights */
+.info{
+    background-color: #2a97a4;
+    width: 80%;
+    height: 44.19px;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.info h4{
+    color: #333333;
+    margin-left: 10px;
+}
+
+/* company-details*/
+.details{
+    background-color: white;
+    width: 80%;
+    height: 44.19px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    border: 2px solid white;
+}
+
+.details p{
+    color:#007BFF;
+}
+.details1 a{
+    color:#333333;
+}
+
+
+.details2{
+    width: 80%;
+    height: 44.19px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E7EAEC;
+    color: #333333;
+    font-size: 12px;
+    border: 2px solid #E7EAEC;
+    text-align: center;
+}
+
+.details2 a{
+ color: #007BFF;   
+ text-align: center;
+}
+
+.details3{
+    width: 80%;
+    height: 44.19px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #333333;
+    font-size: 12px;
+    border: 2px solid #E7EAEC;
+    text-align: center;
+}
+.details3 a{
+    color: #007BFF;
+    text-align: center;
+}
+
+.details4{
+    width: 80%;
+    height: 44.19px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E7EAEC;
+    color: #333333;
+    font-size: 12px;
+    border: 2px solid #E7EAEC;
+    text-align: center;
+}
+
+.details5{
+    width: 80%;
+    height: 44.19px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #333333;
+    font-size: 12px;
+    border:2px solid #E7EAEC;
+    text-align: center;
+}
+
+/*Services*/
+.services{
+    border: 2px solid white;
+    height: 450px;
+    width: 25%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px;
+    margin-left: 10%;
+    display: block;
+
+}
+
+.services h3{
+    width:350px;
+    background-color: #2a97a4;
+    height:44.19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services h4{
+    margin-left: 100%;
+    width: 220%;
+    background-color: #2a97a4;
+    height: 44.19px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    height: 450px;
+    width: 340px;
+    background-size: cover;
+}
+
+.block{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #2a97a4;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 600px;
+
+
+}
+
+.personal h4{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 400px;
+    color: white;
+    background-color: black;
+}
+.img1{
+    height: 400px;
+    width: 340px;
+    background-size: cover;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+
+.img2{
+    height: 350px;
+    width: 340px;
+    background-size: cover;
+    margin-left: 400px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.auto h3{
+    width: 190%;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+.img3{
+    height: 350px;
+    width: 650px;
+    background-size: cover;
+    margin-right: 700px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img4{
+    height: 350px;
+    width: 450px;
+    background-size: cover;
+    margin-left: 800px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.auto1 h4{
+    width: 450px;
+    background-color: black;
+    margin-left: 800px;
+    color: white;
+    height: 44.19px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/*Ownership section*/
+.ownership{
+    background-color:#2a97a4;
+    color: black;
+    width: 80%;
+    margin-top: 40%;
+    margin-left: 10%;
+    height: 44.19px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ownership h4{
+    margin-left: 10px;
+}
+.director{
+    width: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 10%;
+
+}
+
+.sec1{
+    width: 80%;
+    background-color:#E7EAEC;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 34px;
+    margin-left: 10%;
+
+}
+
+.sec1 p{
+    margin-right: 15px;
+}
+
+.sec2{
+    width: 80%;
+    background-color:white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 34px;
+    margin-left: 10%;
+}
+.sec2 p{
+    margin-right: 55px;
+}
+
+.sec3{
+    width: 80%;
+    background-color:#E7EAEC;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 34px;
+    margin-left: 10%;
+}
+.sec3 p{
+    margin-right: 55px;
+}
+
+/*Footer-section*/
+.back{
+    background-color: black;
+    height: 44.19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.back a{
+    color: white;
+}
+
