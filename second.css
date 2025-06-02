@@ -56,6 +56,9 @@ html{
     height: 34px;
 
 }
+.nav2 :hover{
+    border: 2px solid white;
+}
 
 .nav2 a{
     border: 2px solid transparent;
