@@ -55,6 +55,7 @@ html{
     justify-content: space-evenly;
     height: 34px;
 
+
 }
 .nav2 :hover{
     border: 2px solid white;
@@ -66,13 +67,9 @@ html{
     transition: .3s;
     background-color: transparent;
 
+
 }
 
-.nav2 a :hover{
-    border: 1px solid white;
-    background-color: #007BFF;
-    
-}
 
 .section{
     color: white;
@@ -459,5 +456,9 @@ html{
 
 .back a{
     color: white;
+}
+
+.back :hover{
+    border: 2px solid white;
 }
 
